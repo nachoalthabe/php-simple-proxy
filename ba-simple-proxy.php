@@ -1,5 +1,5 @@
 <?PHP
-
+error_reporting(0);
 // Script: Simple PHP Proxy: Get external HTML, JSON and more!
 //
 // *Version: 1.6, Last updated: 1/24/2009*
@@ -137,7 +137,7 @@
 
 // Change these configuration options if needed, see above descriptions for info.
 $enable_jsonp    = false;
-$enable_native   = false;
+$enable_native   = true;
 $valid_url_regex = '/.*/';
 
 // ############################################################################
